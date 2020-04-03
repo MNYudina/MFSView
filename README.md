@@ -1,3 +1,5 @@
+# Run MFSViewer.jar
+
 # 1 Introduction
 
 MFSViewer is a tool for finding so-called networks motifs in a network, that is, it finds small vertex-induced subgraphs that occur significantly more often than in random networks. For a general introduction to the concept of network motifs. 
@@ -12,6 +14,7 @@ Even though this manual has become quite long by covering all the details, the u
 * Section 6 provides details on how to view and process the results that are output by the main algorithm.
  
 ![](images/1.png)
+
 Fig. 1. The three areas of the main interface window of MFSViewer. They correspond to the three working steps when using the tool – setting up the algorithm, running the algorithm, and processing the results.
 
 # 2 License
@@ -34,6 +37,7 @@ Figure 1 shows the main window that appears when you start fanmod. The interface
 The first step is to choose an input file that describes the network you would like to analyze. You can select this file within the input graph frame. MFSViewer allows you to load graphs in the Pajek format. If you want to process graphs in edgelist format you can use the console MFS program (https://github.com/MNYudina/MFS). MFSViewer can analyzed directed, undirected and mixed graph (see Figure 3). In any case graphs are reduced to simple graphs (multiple edges and loops are ignored).
 
  ![](images/3.png)
+ 
 Fig. 3. Analyzed undirected (left) and directed (center) and mixed graphs (right).
 	
 ### 3.2 Setting the Options
@@ -50,6 +54,7 @@ If you have followed the instructions of the previous subsections, you are now r
 Once the algorithm is completed, you can see some brief information about its run in the results box. The best way to get network motifs is clik on the View button to display a "View motifs"  window.
 
 ![](images/4.png)
+
 Fig. 4. The special window to view results of calculation
 
 Results of calculation are follows
