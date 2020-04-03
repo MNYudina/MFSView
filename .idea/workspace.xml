@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36429cb2-fbd7-48f9-9e5a-70bcfcbb6d58" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GraphStats-master" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UW1DZ0s3oapms6bpZEDJrHU8tc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="graphstats-master" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yudinev\Desktop\GraphStats-master\src\main\java\io\github\mnyudina\motifs\algorithms\subgraph_myold" />
+      <recent name="C:\Users\yudinev\Desktop\GraphStats-master\src\main\java\io\github\mnyudina\motifs\graph" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.mnyudina.motifs.algorithms.pathlayers" />
+      <recent name="io.github.mnyudina.motifs.algorithms.branchspeedup" />
+      <recent name="io.github.mnyudina.motifs.algorithms.speeduptest" />
+      <recent name="io.github.mnyudina.motifs.algorithms.pathspeedup" />
+      <recent name="io.github.mnyudina.motifs.algorithms.subgraph" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yudinev\Desktop\DOC\Проекты\MFS_Viewer\src\main\java" />
+      <recent name="C:\Users\yudinev\Desktop\DOC\Проекты\MFS\graphs" />
+      <recent name="C:\Users\yudinev\Desktop\DOC\Проекты\MFS\src\main\java\io\github\mnyudina\motifs\algorithms\pathlayers" />
+      <recent name="C:\Users\yudinev\Desktop\DOC\Проекты\MFS\src\main\java\io\github\mnyudina\motifs\algorithms\speeduptest" />
+      <recent name="C:\Users\yudinev\Desktop\DOC\Проекты\MFS\src\main\java\io\github\mnyudina\motifs\algorithms\subgraph" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MotifsDialog">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.mnyudina.motifs.algorithms.branchspeedup.Main" />
+      <module name="MFS_Viewer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mnyudina.motifs.algorithms.branchspeedup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.mnyudina.motifs.algorithms.pathlayers.Main" />
+      <module name="MFS_Viewer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mnyudina.motifs.algorithms.pathlayers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.mnyudina.motifs.algorithms.branchspeedup.Main" />
+      <module name="MFS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mnyudina.motifs.algorithms.branchspeedup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main22" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.mnyudina.motifs.Main" />
+      <module name="MFS_Viewer" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx3048m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mnyudina.motifs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.mnyudina.motifs.algorithms.branchspeedup.MainTrees" />
+      <module name="MFS_Viewer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mnyudina.motifs.algorithms.branchspeedup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotifsDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.mnyudina.motifVis.MotifsDialog" />
+      <module name="MFS_Viewer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.mnyudina.motifVis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.MainTrees" />
+      <item itemvalue="Application.Main22" />
+      <item itemvalue="Application.MotifsDialog" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MotifsDialog" />
+        <item itemvalue="Application.Main22" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.MainTrees" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36429cb2-fbd7-48f9-9e5a-70bcfcbb6d58" name="Default Changelist" comment="" />
+      <created>1575457417817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575457417817</updated>
+      <workItem from="1575457422183" duration="950000" />
+      <workItem from="1575458390733" duration="4597000" />
+      <workItem from="1575602078987" duration="2420000" />
+      <workItem from="1580534938342" duration="3479000" />
+      <workItem from="1580541663429" duration="12683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="913" y="294" key="#GraphStats_[package]" timestamp="1580537277674">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="913" y="294" key="#GraphStats_[package]/0.0.2560.1394@0.0.2560.1394" timestamp="1580537277674" />
+    <state x="443" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584952073350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="443" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584952073350" />
+    <state x="739" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1394@0.0.2560.1394" timestamp="1580553204863" />
+    <state x="1001" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581172543877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1001" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1581172543877" />
+    <state x="1669" y="506" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1394@0.0.2560.1394" timestamp="1580548968149" />
+    <state x="527" y="254" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1585848543959">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="254" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1585848543959" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1581063151581">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581063151581" />
+    <state x="708" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585932589562">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="708" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1585932589562" />
+    <state x="604" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580555908398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1580555908398" />
+    <state x="625" y="347" width="484" height="223" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580723321160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="625" y="347" width="484" height="223" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580723321160" />
+    <state x="1041" y="587" width="479" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1394@0.0.2560.1394" timestamp="1580545135313" />
+    <state x="571" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1580556556229">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="571" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1580556556229" />
+    <state x="1654" y="449" width="617" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580546228170">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="1654" y="449" width="617" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1394@0.0.2560.1394" timestamp="1580546228170" />
+    <state x="656" y="121" key="#xdebugger.evaluate" timestamp="1581169633051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="656" y="121" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1581169633051" />
+    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1581238170951">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1581238170951" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1585932221291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585932221291" />
+    <state width="2518" height="396" key="GridCell.Tab.0.bottom/0.0.2560.1394@0.0.2560.1394" timestamp="1580553209951" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1585932221290">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585932221290" />
+    <state width="2518" height="396" key="GridCell.Tab.0.center/0.0.2560.1394@0.0.2560.1394" timestamp="1580553209951" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1585932221290">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585932221290" />
+    <state width="2518" height="396" key="GridCell.Tab.0.left/0.0.2560.1394@0.0.2560.1394" timestamp="1580553209951" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1585932221291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585932221291" />
+    <state width="2518" height="396" key="GridCell.Tab.0.right/0.0.2560.1394@0.0.2560.1394" timestamp="1580553209951" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1585930299832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585930299832" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1585930299832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585930299832" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1585930299832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585930299832" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1585930299832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585930299832" />
+    <state x="458" y="0" key="SettingsEditor" timestamp="1585932612012">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="458" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585932612012" />
+    <state x="595" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1583378713521">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="595" y="311" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583378713521" />
+    <state x="991" y="526" key="com.intellij.ide.util.TipDialog/0.0.2560.1394@0.0.2560.1394" timestamp="1580541670139" />
+    <state x="384" y="107" width="612" height="717" key="find.popup" timestamp="1583042304697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="384" y="107" width="612" height="717" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1583042304697" />
+    <state x="209" y="77" key="new project wizard" timestamp="1582110976927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="77" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582110976927" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1585917005182">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585917005182" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585932360989">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585932360989" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/sf/jung/jung-graph-impl/2.0.1/jung-graph-impl-2.0.1-sources.jar!/edu/uci/ics/jung/graph/AbstractGraph.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/github/mnyudina/motifs/algorithms/subgraph_myold/RandMSF4Dir.java</url>
+          <line>560</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/github/mnyudina/motifVis/MotifsDialog.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MFS$Main2.ic" NAME="Main2 Coverage Results" MODIFIED="1580728510551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
