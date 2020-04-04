@@ -2,10 +2,10 @@
 
 # 1 Introduction
 
-MFSViewer is a tool for finding so-called networks motifs in a network, that is, it finds small vertex-induced subgraphs that occur significantly more often than in random networks. For a general introduction to the concept of network motifs. 
-MFSViewer is able to search for network motifs of size three and four vertices in directed an undirected network. MFSViewer detects motifs by using the so-called MFS (Method of Frames Samling). More details on the MFS can be found in [1]. MFSViewer features a graphical interface for easy setup of algorithm parameters. 
+MFSViewer is a program for finding so-called networks motifs in a network, that is, it finds small vertex-induced subgraphs that occur significantly more often than in random networks. 
+The program is able to search for network motifs of size three and four vertices in directed an undirected network. MFSViewer detects motifs by using the so-called MFS (Method of Frames Samling). More details on the MFS can be found in [1]. MFSViewer features a graphical interface for easy setup of algorithm parameters. 
 
-The graphical interface and the help and the license of MFSViewer is similar FANMOD program [2]. But the logic of the MFS operation differs from FANMOD in speed, accuracy [3] and quality indicators of the obtained statistical estimates (such as unbias and efficiency). This can be found in more detail in my articles [1, 3] in English and [4, 5] in Russian. Now, finishing my PhD thesis I consider opportunity for publication in the journal with a high rating.
+The graphical interface and the help and the license of MFSViewer are similar FANMOD ones [2]. But MFSVewer differs from FANMOD in speed, accuracy [3] and quality indicators of the obtained statistical estimates (such as unbias and efficiency). This is discussed  in detail in my articles [1, 3] in English and [4, 5] in Russian. Now, finishing my PhD thesis I consider opportunity for publication in the journal with a high rating.
 
 Even though this manual has become quite long by covering all the details, the use of MFSViewer should be quite intuitive. I have paid attention to giving all parameters sound default values, so if you wish to start detecting motifs right away the short introduction in Section 3 should be all you need. Whenever you want to tune the parameters, find out more about some details of the program, or if anything else remains unclear, please consult the more detailed sections:
 
@@ -31,23 +31,24 @@ This section describes the basic steps of a motif search without going too much 
 
 Fig. 2. The frames and buttons of the main window, named as they are referenced in the text.
 
-Figure 1 shows the main window that appears when you start fanmod. The interface follows a top-down logic, i.e., the upper half is for setting the algorithm parameters and the lower half for running the algorithm and viewing/processing its results. A more detailed subdivision of these areas into frames is shown in Figure 2.
+Figure 1 shows the main window that appears when you start MFSViewer. The interface follows a top-down logic, i.e., the upper half is for setting the algorithm parameters and the lower half for running the algorithm and viewing/processing its results. A more detailed subdivision of these areas into frames is shown in Figure 2.
 
 ### 3.1 Selecting an Input Graph
 The first step is to choose an input file that describes the network you would like to analyze. You can select this file within the input graph frame. MFSViewer allows you to load graphs in the Pajek format. If you want to process graphs in edgelist format you can use the console MFS program (https://github.com/MNYudina/MFS). MFSViewer can analyzed directed, undirected and mixed graph (see Figure 3). In any case graphs are reduced to simple graphs (multiple edges and loops are ignored).
 
  ![](images/3.png)
  
-Fig. 3. Analyzed undirected (left) and directed (center) and mixed graphs (right).
+Fig. 3. Undirected (left) and directed (center) and mixed graphs (right).
 	
 ### 3.2 Setting the Options
 
-The most important options of the motif search are in the algorithm options frame. Here you can choose the subgraph size (that is, the size of the motifs to be detected) and whether to perform a full enumeration of subgraphs or just sample some of them in the network. For information on sampling and the appropriate parameters, please refer to Section 4.2.
-As motifs are detected by comparing their frequency of occurrence in the original network to their frequency of occurrence in a number of similar, yet randomized networks, you have to state how many random networks should be looked at and how they should be created. The number of randomized networks can be set in the number of networks box on the bottom of the random networks frame. An explanation of the other available options is deferred to Section 4.3.
+The most important options of the motif search are in the algorithm options frame. Here you can choose the subgraph size (that is, the size of the motifs to be detected) and whether to perform a full enumeration of subgraphs or just sample some of them in the network. 
+
+As motifs are detected by comparing their frequency of occurrence in the original network to their frequency of occurrence in a number of similar, yet randomized networks, you have to state how many random networks should be looked at and how they should be created. The number of randomized networks can be set in the 'Randomized graphs' box on the bottom of the random networks frame. An explanation of the other available options is deferred to Section 4.3.
 
 ### 3.3 Performing the Search
 
-If you have followed the instructions of the previous subsections, you are now ready to start detecting network motifs. Simply click on the start button in the algorithm area of the program. The progress bars show the overall algorithm progress, the progress per network: numbers of subgraphs calculating process and randomization one. Get yourself a cup of coffee and wait until the program is done. But you will have less time to drink coffee than if you used other programs.
+If you have followed the instructions of the previous subsections, you are now ready to start detecting network motifs. Simply click on the start button in the algorithm area of the program. The progress bars show the overall algorithm progress, the progress per network: calculation process and randomization one. Get yourself a cup of coffee and wait until the program is done. But you will have less time to drink coffee than if you used other programs.
 
 ### 3.3 Viewing Results
 
@@ -57,12 +58,12 @@ Once the algorithm is completed, you can see some brief information about its ru
 
 Fig. 4. The special window to view results of calculation
 
-Results of calculation are follows
+Results of calculation per each motif are follows
 
 *  Picture of the motif
-*  Statistical estimation number N_G of the motifs in an original network 
-*  Standard deviation SD of a numbers of the motifs in an original network. You can use it to analyze calculation accuracy (for example, +/- 3SD is statistically-valid)
-*  Statistical characteristics of the motifs (R, R', Z-score). For information on the characteristics, please refer to Section 6.
+*  Statistical estimation number N_G of realizations of the motif in an original network 
+*  Standard deviation SD of a number of realizations of the motif in an original network. You can use it to analyze calculation accuracy (for example, +/- 3SD is statistically-valid)
+*  Statistical characteristics of the motif (R, R', Z-score). For information on the characteristics, please refer to Section 6.
 
 The "View motifs" allows setting filters using various criteria, as well as using sorting. The sorting is controlled by clicking on the column headers.
 
@@ -74,7 +75,7 @@ They can all be found in the algorithm area of the main interface.
 
 #### Subgraph Size Input field
 
-The size of the motifs to be searched is selected here. It may range from three up to four vertices. Be aware that although MFSViewer is quite fast, detecting 4-motifs may take very, very long. Also, you should have as much memory as possible available on your machine (use for it jvm peremeters).
+The size of the motifs to be searched is selected here. It may range from three up to four vertices. Be aware that although MFSViewer is quite fast, detecting 4-motifs may take very long. Also, you should have as much memory as possible available on your machine (use for it jvm peremeters).
 
 #### Full Enumeration Radiobutton 
 
@@ -82,7 +83,7 @@ Choose this if you want all subgraphs (i.e., motif candidates) of the selected s
 
 #### Sampling count Radiobutton and Number of Samples Input field
 
-If you choose this option, the algorithm will only sample a subset of all subgraphs in the network using MFS. Number of random frames (spanning tries realizations) is established by Number of Samples input field.
+If you choose this option, then you get only statistical estimates of  number of realization of motifs using MFS. Number of random frames (spanning trees realizations) is established by Number of Samples input field.
 
 #### Use parallelism Checkbox
 
@@ -102,7 +103,7 @@ When randomizing the network, the edges are exchanged one after the other. This 
 
 #### Exchange attempts Input field
 
-When it is an edge’s turn to be exchanged, an exchange partner edge is randomly selected from those edges that fulfil the desired properties (biderected/unidirected). For some reasons, this partner may not be suitable for the exchange (e.g., if both edges start at the same vertex, then an exchange would not change the network at all). In this case, another partner is selected. This is repeated until the exchange succeeds or the number of exchange attempts – which can be specified in this box – is exceeded. So, if too few exchanges succeed (the number of successful exchanges can be found in the results summary), this number should be increased. 
+When it is an edge’s turn to be exchanged, an exchange partner edge is randomly selected from those edges that fulfil the desired properties (biderected/unidirected). For some reasons, this partner may not be suitable for the exchange (e.g., if both edges start at the same vertex, then an exchange would not change the network at all). In this case, another partner is selected. This is repeated until the exchange succeeds or the number of exchange attempts – which can be specified in this box – is exceeded. So, if too few exchanges succeed, this number should be increased. 
 
 # 5 During the Search
 
@@ -112,7 +113,7 @@ In the algorithm area, there are tree status bars which show accurately how far 
 
 ### 5.2 The Result Window
 
-During the search, intermediate results – such as the number of vertices and edges in the input network, and the number of subgraphs that have been found in the original network – will appear in the results area. Once the search has been finished, a result overview is shown in this window. The detected subgraphs and statistics, though, can only be found in the output file.
+During the search, intermediate results – such as the number of vertices and edges in the input network, randomization execution time and time of calculation for subgraphs occurrences  – will appear in the results area. Once the search has been finished, a result overview is shown in this window. The detected subgraphs and statistics, though, can only be found in the output file.
 
 # 6 Viewing the results
 
