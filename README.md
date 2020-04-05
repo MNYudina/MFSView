@@ -158,6 +158,8 @@ In addition, you can display only those rows that satisfy a certain condition:
 The csv file contains the output as produced by the core algorithm.
 At the beginning of the file, the options of the search and properties of the input network are given, as well as the total number of subgraphs found and how long the search took. Then follows the result table which includes all the subgraphs found (no matter how rare or insignificant they were). The table is either human-readable or in csv. The csv format can easily be read by a spreadsheet application where you can sort, filter, or scan it for certain values.
 
+If you have any questions, please contact me via my account https://www.researchgate.net/profile/Maria_Yudina2
+
 ### References
 1. Yudina, M. N. Mixed Random Sampling of Frames method for counting number of motifs / M. N. Yudina, V. N. Zadorozhnyi, E. B. Yudin // Journal of Physics: Conference Series. – 2019. – V. 1260. – P. 022013.
 
