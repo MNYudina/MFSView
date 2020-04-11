@@ -1,4 +1,4 @@
-# Run MFSViewer.jar
+# Запустите MFSViewer.jar
 
 # 1 Введение
 
