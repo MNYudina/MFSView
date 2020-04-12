@@ -562,16 +562,18 @@ public class MotifsDialog extends JFrame {
 			public Void doInBackground() {
 				int progress = 0;
 				setProgress(0);
+				System.out.println("progress::"+progress);
 				while (progress < 100) {
 					// Sleep for up to one second.
 					try {
 						Thread.sleep(500);
+						//System.out.println("progress::"+progress);
 					} catch (InterruptedException ignore) {
 						System.out.println("Bad");
 					}
 
 					progress = g_i.getRandomizedStatus() / exchangesPerEdges;
-					// System.out.println("progress="+progress);
+					System.out.println("progress="+progress);
 					setProgress(Math.min(progress, 100));
 				}
 				return null;
@@ -610,6 +612,7 @@ public class MotifsDialog extends JFrame {
 					try {
 						Thread.sleep(500);
 					} catch (InterruptedException ignore) {
+						System.out.println("ss");
 					}
 					progress = (int) (100. * activeCalc.iter / 2. / activeCalc.numberOfRuns);
 					setProgress(Math.min(progress, 100));
@@ -758,11 +761,12 @@ public class MotifsDialog extends JFrame {
 				t = System.nanoTime();
 				TaskRandomization RandomizationTask = new TaskRandomization(exchangesPerEdges);
 				RandomizationTask.addPropertyChangeListener(RandomizationTask);
-				RandomizationTask.execute();
 
 				g_i = new MySparseGraph(graph);
+				RandomizationTask.execute();
+
+
 				g_i.getRandomized(exchangesPerEdges, exchangesAttempts);
-				// System.out.println("������������ " +
 				// FormatUtils.durationToHMS(System.nanoTime() - t));
 
 				outTextPane
@@ -999,7 +1003,7 @@ public class MotifsDialog extends JFrame {
 				// try to open file
 				JFileChooser chooser = new JFileChooser();
 				FileNameExtensionFilter filter = new FileNameExtensionFilter("Pajek files", "net");
-				chooser.setCurrentDirectory(new File("./graphs"));
+				chooser.setCurrentDirectory(new File("."));
 				chooser.setFileFilter(filter);
 				int returnVal = chooser.showOpenDialog(me);
 				if (returnVal == JFileChooser.APPROVE_OPTION) {
@@ -1242,7 +1246,7 @@ public class MotifsDialog extends JFrame {
 			for (String line : outTextPane.getText().split("\\n"))
 				csv.append(line + "\n");
 
-			csv.append("-----\n");
+			csv.append("N_G;SKO_G;R;R_;Z_SCORE;COUNT_G\n");
 
 			for (int index = 0; index < N_G.length; index++) {
 				// csv.append(index + ";");
@@ -1303,7 +1307,7 @@ public class MotifsDialog extends JFrame {
 					else
 						n = 16;
 				}
-				if (line.equals("-----"))
+				if (line.equals("N_G;SKO_G;R;R_;Z_SCORE;COUNT_G"))
 					break;
 				outTextPane.append(line + "\n");
 			}
