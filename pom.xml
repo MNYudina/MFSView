@@ -10,7 +10,7 @@
 
     <properties>
         <jung.version>2.0.1</jung.version>
-        <commons.collections.version>4.0</commons.collections.version>
+        <commons.collections.version>4.1</commons.collections.version>
         <commons.cli.version>1.2</commons.cli.version>
         <log4j.version>2.2</log4j.version>
     </properties>
